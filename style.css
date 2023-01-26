@@ -19,9 +19,28 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2em;
+  font-size: 3.5em;
   color: white;
+  /* animation: changeColor 2s ease-in-out infinite forwards normal; */
 }
+/* @keyframes changeColor {
+  0% {
+    color: rgb(255, 255, 255);
+  }
+  10% {
+    color: rgb(207, 207, 207);
+  }
+  30% {
+    color: rgb(105, 105, 105);
+  }
+  40% {
+    color: rgb(75, 75, 75);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+} */
+
 section {
   height: 100vh;
 }
@@ -29,4 +48,5 @@ section h3 {
   padding-top: 300px;
   text-align: center;
   font-size: 3em;
+  transform-origin: center;
 }
